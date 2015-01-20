@@ -1,0 +1,10 @@
+[200, {"Content-Type" => "text/html"}, ["Hello Rack!"]]
+run HelloRack.new
+
+
+1-0. config.ru
+1-1. class, proc, true
+1-2. ife REQUEST_PATH, logger
+2. middle_rack
+  - pre HTTP_X_NAME hook,
+  - post inject body,
